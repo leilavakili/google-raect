@@ -9,3 +9,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+.App-logo {
+    flex-direction: column;
+    text-align: center;
+    display: block;
+    margin-left: 41.3%;
+    margin-top: 94px;
+  }
+  
