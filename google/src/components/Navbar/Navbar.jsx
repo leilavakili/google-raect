@@ -10,7 +10,7 @@ class Navbar extends Component{
             <ul>
                 <li ><a href="https://mail.google.com">Gmail</a></li>
                 <li ><a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a></li>
-                <li ><img src="/.menu.jpg" alt="menu-icon"/></li>
+                <li ><img src={menu} className="menu" alt="menu"/></li>
                 <li ><button>sign in</button></li>
            </ul>
       </nav>

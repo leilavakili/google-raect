@@ -18,16 +18,16 @@ function App() {
     <br></br>
     <div class="search-b">
 
-    <img alt="magnifier" src="./magnifier glass.png" class="magnifier"/>
+    <img alt="magnifier" src={magnifier} class="magnifier"/>
     <input type="text" class="search-input"/>
-    <img alt="mic" src="./mic.png" class="mic-icon" />
-    <img alt="lens" src="./lens.png" class="lens-icon"/>
+    <img alt="mic" src={mic} class="mic-icon" />
+    <img alt="lens" src={lens} class="lens-icon"/>
     <input type="submit" class="search-botton" value="Google Search"/>
     <input type="submit" class="search-botton" value="I'm Feeling Lucky"/>
 
 </div>
     </form>
-     <Footer />
+    <Footer />
     </section>
     </body>
     </div>
