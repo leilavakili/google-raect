@@ -1,29 +1,20 @@
 import React, { Component } from 'react'
-import { MenuItems } from './MenuItems'
-import'./Navbar.css'
+import "./Navbar.css";
 import { Button } from '../Button'
 
 class Navbar extends Component{
-
-}
   render(){
     return(
-      <nav className="NavbarItems">
-
-          <div className="menu-icon">
-          <a ></a>
-          </div>
-            <ul className="nav-menu">
-              {MenuItems.map((item, index)=>{
-                return(
-                <li key={index}>
-                  <a className={item.cName} href={item.URL}>{item.title}</a>
-                </li>
-                )
-           })}
+      <div className="Navbar">
+      <nav>
+            <ul>
+                <li ><a href="https://mail.google.com">Gmail</a></li>
+                <li ><a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a></li>
+                <li ><img src="/.menu.jpg" alt="menu-icon"/></li>
+                <li ><button>sign in</button></li>
            </ul>
-          <Button>Sign in</Button>
       </nav>
+      </div>
     )
   }
 }
