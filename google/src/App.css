@@ -16,4 +16,85 @@ body{
     margin-left: 41.3%;
     margin-top: 94px;
   }
-  
+.section{
+    flex: 1;
+}
+.section .logo{
+    flex-direction: column;
+    text-align: center;
+    display: block;
+    margin-top: 94px;
+}
+.search-b {
+    width: 590px;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+.search-b .search-input {
+    background-color: transparent;
+    display: block;
+    border: 1px solid #ddd;
+    color: #202124;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 80px;
+    border-radius: 22px;
+    width: 100%;
+}
+.search-b .search-input:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05)
+}
+.search-b .magnifier {
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    opacity: 0.6;
+    align-items: center;
+}
+.search-b .mic-icon {
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 60px;
+    cursor: pointer;
+    align-items: center;
+
+}
+.search-b .lens-icon {
+    width: 18px;
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    cursor: pointer;
+    align-items: center;
+}
+.search-botton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 30px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.search-botton:hover{
+    border: 1px solid #bfbfbf
+}
