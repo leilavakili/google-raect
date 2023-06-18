@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Navbar.css";
-import { Button } from '../Button'
+import menu from './menu.jpg';
 
 class Navbar extends Component{
   render(){
