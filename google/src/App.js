@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import './App.css';
 import logo from './google.png';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
 
 </div>
     </form>
+     <Footer />
     </section>
     </body>
     </div>
