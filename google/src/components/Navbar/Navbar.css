@@ -1,58 +1,43 @@
-.NavbarItems {
+nav ul {
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 6px;
-    height: 60px;
 }
-.nav-menu{
+nav li{
     list-style: none;
+}
+nav li a{
     display: inline-block;
     font-size: 13px;
-    line-height: 24px;
+    height: 0;
     cursor: pointer;
     padding: 5px 6.7px;
-}
-.nav-links {
-    color: #202124;
+    color: #000000;
     text-decoration: none;
     font-weight: 4oo;
 }
-.nav-links:hover {
+nav a:hover{
     text-decoration: underline;
 }
-@media screen  and (max-width:960px){
-    .NavbarItems{
-        position: relative;
-    }
-    .nav-menu{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 500px;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        opacity: 1;
-        transition: all 0.5s ease;
-    }
-    .nav-menu.active{
-        background: #4285f4 ;
-        left: 0;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: 1;
-    }
-    .nav-links{
-        text-align: center;
-        padding: 2rem;
-        width: 100%;
-        display: table;
-
-    }
-    .nav-links:hover{
-        text-decoration: underline;
-    }
-
-
+nav img{
+    width: 26px;
+    padding: 5px;
+    margin: 16px 10px 16px;
+    cursor: pointer;
+}
+nav img:hover {
+    opacity: .8;
+}
+nav button {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    cursor: pointer;
 }
