@@ -5,6 +5,7 @@ class Footer extends Component{
     render(){
         return (
             <footer>
+
             <div class="links">
                 <div class="link-1">
                     <a href="https://about.google/?utm_source=google-IR&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
@@ -15,11 +16,21 @@ class Footer extends Component{
                 <div class="link-2">
                     <a href="https://policies.google.com/privacy?hl=en-IR&fg=1">Privacy</a>
                     <a href="https://policies.google.com/terms?hl=en-IR&fg=1">Term</a>
-                    <a href="#">Settings</a>
-
                 </div>
-
-            </div>
+                    <div className="dropup">
+                    <button class="dropbtn">Settings</button>
+                        <div class="dropup-content">
+                           <a href="https://www.google.com/preferences?hl=en-IR&fg=1">Search Settings</a>
+                           <a href="https://www.google.com/advanced_search?hl=en-IR&fg=1">Advanced Search</a>
+                           <a href="https://myaccount.google.com/yourdata/search?utm_source=googlemenu&fg=1">Your data in Search</a>
+                           <a href="https://myaccount.google.com/yourdata/search?utm_source=googlemenu&fg=1">Search history</a>
+                           <a href="https://support.google.com/websearch/?visit_id=638227960328299652-3905275601&hl=en-IR&rd=2#topic=3378866">Search help</a>
+                           <a href="#">Send feedback</a>
+                           <hr/>
+                           <a href="#">Dark theme</a>
+                        </div>
+                 </div>
+                </div>
         </footer>
         )
     }

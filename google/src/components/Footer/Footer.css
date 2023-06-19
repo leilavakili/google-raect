@@ -4,14 +4,17 @@ footer{
     left: 0;
     width: 100%;
     background: #f2f2f2;
-
+    justify-content: space-evenly;
 }
 footer a {
-    color: #5f6368;
+    vertical-align: middle;
+    height: 45px;
+    color: #75787b;
     display: inline-block;
     padding: 12px 11.3px;
     font-size: 14px;
     cursor: pointer;
+    position: relative;
 }
 footer a:hover {
     text-decoration: underline;
@@ -25,5 +28,39 @@ footer a:hover {
     flex: 1;
 }
 .link-2{
-    padding-right: 18.7px;
+    padding-right: 18px;
 }
+.dropbtn {
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block;
+    color: #75787b;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+
+.dropbtn:hover{
+    text-decoration: underline;
+  }
+
+.dropup-content {
+        right: 10px;
+        display: none;
+        position: absolute;
+        width: 160px;
+        bottom: 50px;
+        z-index: 1;
+}
+.dropup-content a {
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropup:active .dropup-content {
+    display: block;
+}
+

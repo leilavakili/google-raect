@@ -26,9 +26,12 @@ nav img{
     padding: 5px;
     margin: 16px 10px 16px;
     cursor: pointer;
+    opacity: .7;
 }
 nav img:hover {
-    opacity: .8;
+    background-color: #eae9e9 ;
+    border-radius: 50%;
+    
 }
 nav button {
     border: 1px solid #4285f4;
