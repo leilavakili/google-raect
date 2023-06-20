@@ -11,9 +11,9 @@ body{
 }
 .App-logo {
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     display: block;
-    margin-left: 41.3%;
+    margin:auto;
     margin-top: 94px;
   }
 .section{
