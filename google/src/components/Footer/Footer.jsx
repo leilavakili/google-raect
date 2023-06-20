@@ -27,7 +27,7 @@ class Footer extends Component{
                            <a href="https://support.google.com/websearch/?visit_id=638227960328299652-3905275601&hl=en-IR&rd=2#topic=3378866">Search help</a>
                            <a href="#">Send feedback</a>
                            <hr/>
-                           <a href="#">Dark theme</a>
+                           <a href="#">Dark theme </a> 
                         </div>
                  </div>
                 </div>
